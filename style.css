@@ -1,0 +1,84 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+/* Botão de chamada para ação */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff3366;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #cc2952;
+}
+
+/* Estilos para seções com efeito parallax */
+.parallax {
+  position: relative;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  background-image: url("https://placekitten.com/1920/1080"); /* Imagem de fundo da introdução */
+}
+
+.characters {
+  background-image: url("https://placekitten.com/1920/1080"); /* Imagem de fundo dos personagens */
+}
+
+.gallery {
+  background-image: url("https://placekitten.com/1920/1080"); /* Imagem de fundo da galeria */
+}
+
+/* Conteúdo sobreposto */
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.section-content {
+  padding: 60px 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: #aaa;
+}
